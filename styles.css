@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.customers {
+  font-family: sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customers th,
+.customers td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.customers tr:nth-child(even) {
+  background-color: red;
+}
+.customers tr:hover {
+  background-color: #ddd;
+}
+
+.customers th {
+  text-align: left;
+  background-color: aquamarine;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
